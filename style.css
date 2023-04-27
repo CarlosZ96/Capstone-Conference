@@ -6,339 +6,632 @@ body {
   overflow-y: scroll;
 }
 
-@media(max-width: 768px) {
 
-  .ham,
-  .hamimg {
-    position: fixed;
-    left: 20px;
-    top: 20px;
-    height: 25px;
-    width: 25px;
-    border: none;
-    background: none;
-  }
 
-  .e3_main {
-    height: 694px;
-    width: 100%;
-    top: 2px;
-    display: flex;
-    flex-direction: row;
-    align-items: top;
-    background-image: url(img/bg_e3.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
+.ham,
+.hamimg {
+  position: fixed;
+  left: 20px;
+  top: 20px;
+  height: 25px;
+  width: 25px;
+  border: none;
+  background: none;
+}
 
-  .hero {
-    height: 472px;
-    width: 100%;
-    border-radius: 0px;
-    margin: 100px 20px 0 20px;
-  }
+.e3_main {
+  height: 694px;
+  width: 100%;
+  top: 2px;
+  display: flex;
+  flex-direction: row;
+  align-items: top;
+  background-image: url(img/bg_e3.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
-  .hello {
-    height: 48px;
-    width: 100%;
-    font-family: 'Lato', sans-serif;
-    font-size: 25px;
-    font-weight: bold;
-    line-height: 48px;
-    color: #ec5242;
-    text-align: left;
-    padding: 0;
-    margin: 0;
-  }
+.hero {
+  height: 472px;
+  width: 100%;
+  border-radius: 0px;
+  margin: 100px 20px 0 20px;
+}
 
-  .description1 {
-    height: max-content;
-    width: 100%;
-    color: #ec5242;
-    text-align: left;
-    font-family: 'Lato', sans-serif;
-    font-style: normal;
-    font-size: 30px;
-    font-weight: bold;
-    text-align: left;
-    padding: 0;
-    margin: 0;
-    margin-bottom: 21px;
-  }
+.hello {
+  height: 48px;
+  width: 100%;
+  font-family: 'Lato', sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 48px;
+  color: #ec5242;
+  text-align: left;
+  padding: 0;
+  margin: 0;
+}
 
-  .description2 {
-    height: max-content;
-    width: 100%;
-    left: 104px;
-    top: 437px;
-    font-family: 'Lato', sans-serif;
-    font-size: 20px;
-    font-weight: normal;
-    text-align: left;
-    background-color: #fff;
-    padding: 0;
-    margin: 0;
-    margin-bottom: 10px;
-  }
+.hello::before {
+  content: "“Hello Gamer World”";
+}
 
-  .date {
-    height: 72px;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    font-family: 'Lato', sans-serif;
-    font-size: 34px;
-    font-weight: 900;
-    line-height: 77px;
-    text-align: left;
-    color: #727272;
-  }
+.description1 {
+  height: max-content;
+  width: 100%;
+  color: #ec5242;
+  text-align: left;
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: left;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 21px;
+}
 
-  .location {
-    height: max-content;
-    width: 100%;
-    font-family: 'Lato', sans-serif;
-    font-size: 16px;
-    font-weight: 900;
-    text-align: left;
-    color: #727272;
-    margin: 0;
-    padding: 0;
-  }
+.description1::before {
+  content: "E3 the best non-cancelled video game conference.";
+}
 
-  .MainProgram {
-    height: max-content;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    background-color: #272a31;
-    background-image: url(img/pngkey\ 1.png);
-    background-size: contain;
-    margin: 0;
-  }
+.description2 {
+  height: max-content;
+  width: 100%;
+  left: 104px;
+  top: 437px;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  text-align: left;
+  background-color: #fff;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 10px;
+}
 
-  .Tittle_Container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-left: 0;
-    margin-right: 0;
-    width: 100%;
-    height: 91px;
-  }
+.description2::before {
+  content: "Is a convention in which various video game companies talk about their upcoming releases and sometimes about their software and hardware";
+}
 
-  .M_tittle {
-    font-family: 'Lato', sans-serif;
-    font-size: 26px;
-    font-weight: normal;
-    line-height: 43px;
-    color: #fff;
-    text-align: left;
-    height: max-content;
-    width: max-content;
-    margin: 0;
-    padding: 0;
-  }
+.date {
+  height: 72px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+  font-size: 34px;
+  font-weight: 900;
+  line-height: 77px;
+  text-align: left;
+  color: #727272;
+}
 
-  .line {
-    width: 90px;
-    height: 0px;
-    border: 2px solid #ec5242;
-    transform: matrix(1, 0, 0, 1, 0, 0);
-  }
+.date::before {
+  content: "2023.02.29-30";
+}
 
-  .schedule {
-    list-style: none;
-    height: max-content;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    margin: 0;
-    padding: 0;
-  }
+.location {
+  height: max-content;
+  width: 100%;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  font-weight: 900;
+  text-align: left;
+  color: #727272;
+  margin: 0;
+  padding: 0;
+}
 
-  .Event {
-    display: flex;
-    flex-direction: row;
-    height: 100px;
-    background: rgba(121, 121, 121, 0.7);
-    margin: 0 10px 10px 10px;
-    align-items: center;
-    justify-content: center;
-  }
+.location::before {
+  content: "@Los Angeles Convention Center.";
+}
 
-  #eElementc {
-    display: flex;
-    flex-direction: row;
-  }
+.MainProgram {
+  height: max-content;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #272a31;
+  background-image: url(img/pngkey\ 1.png);
+  background-size: contain;
+  margin: 0;
+}
 
-  .eElements {
-    list-style: none;
-    padding: 0;
-  }
+.Tittle_Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
+  height: 91px;
+}
 
-  .eElement {
-    display: flex;
-    flex-direction: row;
-  }
+.M_tittle {
+  font-family: 'Lato', sans-serif;
+  font-size: 26px;
+  font-weight: normal;
+  line-height: 43px;
+  color: #fff;
+  text-align: left;
+  height: max-content;
+  width: max-content;
+  margin: 0;
+  padding: 0;
+}
 
-  .etittle {
-    height: 38px;
-    width: max-content;
-    margin: 0;
-    font-family: 'Lato', sans-serif;
-    font-size: 18px;
-    font-weight: bold;
-    line-height: 38px;
-    text-align: left;
-    color: #cf493a;
-  }
+.line {
+  width: 90px;
+  height: 0px;
+  border: 2px solid #ec5242;
+  border-radius: 20px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
 
-  .eElement1 .etittle::before {
-    content: "Speakers";
-    margin-left: 2px;
-  }
+.schedule {
+  list-style: none;
+  height: max-content;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
 
-  .eElement2 .etittle::before {
-    content: "Speakers";
-  }
+.Event {
+  display: flex;
+  flex-direction: row;
+  height: 100px;
+  background: rgba(121, 121, 121, 0.7);
+  margin: 0 10px 10px 10px;
+  align-items: center;
+  justify-content: center;
+}
 
-  .eElement3 .etittle::before {
-    content: "Speakers";
-  }
+#eElementc {
+  display: flex;
+  flex-direction: row;
+}
 
-  .eElement4 .etittle::before {
-    content: "Speakers";
-  }
+.eElements {
+  list-style: none;
+  padding: 0;
+}
 
-  .eElement5 .etittle::before {
-    content: "Speakers";
-  }
+.eElement {
+  display: flex;
+  flex-direction: row;
+}
 
-  .edescription {
-    height: 58px;
-    width: 200px;
-    font-family: 'Lato', sans-serif;
-    font-size: 14px;
-    font-weight: normal;
-    line-height: 29px;
-    text-align: left;
-    color: #fff;
-    margin: 0;
-  }
+.etittle {
+  height: 38px;
+  width: max-content;
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 38px;
+  text-align: left;
+  color: #cf493a;
+}
 
-  .eElement1 .edescription::before {
-    content: "Listen to the speakers of the best companies in the market.";
-  }
+.eElement1 .etittle::before {
+  content: "Speakers";
+  margin-left: 2px;
+}
 
-  .eElement2 .edescription::before {
-    content: "Discover the next games and consoles exclusively for e3!";
-  }
+.eElement2 .etittle::before {
+  content: "Speakers";
+}
 
-  .eElement3 .edescription::before {
-    content: "Do you like the new releases? Discuss your opinion with other gamers.";
-  }
+.eElement3 .etittle::before {
+  content: "Speakers";
+}
 
-  .eElement4 .edescription::before {
-    content: "Enjoy some new and classic video games.";
-  }
+.eElement4 .etittle::before {
+  content: "Speakers";
+}
 
-  .eElement5 .edescription::before {
-    content: "Listen to the speakers of the best companies in the market.";
-  }
+.eElement5 .etittle::before {
+  content: "Speakers";
+}
 
-  .buttonContainer {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
+.edescription {
+  height: 58px;
+  width: 200px;
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 29px;
+  text-align: left;
+  color: #fff;
+  margin: 0;
+}
 
-  .e3button {
-    height: 60px;
-    width: 300px;
-    border-radius: 20px;
-    background-color: #ec5242;
-    border-color: #cf493a;
-    font-family: 'Lato', sans-serif;
-    font-size: 20px;
-    font-weight: normal;
-    line-height: 48px;
-    text-align: left;
-    color: #fff;
-    padding: 0;
-    text-align: center;
-    margin-top: 70px;
-    margin-bottom: 43px;
-  }
+.eElement1 .edescription::before {
+  content: "Listen to the speakers of the best companies in the market.";
+}
 
-  .eimg {
-    height: 65px;
-    width: 65px;
-    margin-left: 13px;
-    background-size: cover;
-  }
+.eElement2 .edescription::before {
+  content: "Discover the next games and consoles exclusively for e3!";
+}
 
-  .eElement1 .eimg {
-    background-image: url(img/Freepik1.png);
-  }
+.eElement3 .edescription::before {
+  content: "Do you like the new releases? Discuss your opinion with other gamers.";
+}
 
-  .eElement2 .eimg {
-    background-image: url(img/EucalypPad.png);
-  }
+.eElement4 .edescription::before {
+  content: "Enjoy some new and classic video games.";
+}
 
-  .eElement3 .eimg {
-    background-image: url(img/VectorsMarket.png);
+.eElement5 .edescription::before {
+  content: "Listen to the speakers of the best companies in the market.";
+}
 
-  }
+.buttonContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
 
-  .eElement4 .eimg {
-    background-image: url(img/mangsaabguru.png);
-  }
+.e3button {
+  height: 60px;
+  width: 300px;
+  border-radius: 20px;
+  background-color: #ec5242;
+  border-color: #cf493a;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 48px;
+  text-align: left;
+  color: #fff;
+  padding: 0;
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 43px;
+}
 
-  .eElement5 .eimg {
-    background-image: url(img/FlatIcons.png);
-  }
+.eimg {
+  height: 65px;
+  width: 65px;
+  margin-left: 13px;
+  background-size: cover;
+}
 
-  .speakers {
-    height: 814px;
-    width: 100%;
-  }
+.eElement1 .eimg {
+  background-image: url(img/Freepik1.png);
+}
 
-  .spk1 {
-    display: flex;
-    flex-direction: row;
-  }
+.eElement2 .eimg {
+  background-image: url(img/EucalypPad.png);
+}
 
-  .photo_container {
-    height: 160px;
-    width: 180px;
-    background-color: #cf493aaa;
-    position: relative;
-  }
+.eElement3 .eimg {
+  background-image: url(img/VectorsMarket.png);
 
-  .chess {
-    height: 100px;
-    width: 100px;
-    position: absolute;
-  }
+}
 
-  .spk1img {
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    left: 12px;
-    top: 12px;
-    border-radius: 135px;
-  }
+.eElement4 .eimg {
+  background-image: url(img/mangsaabguru.png);
+}
 
-  .spkrdescription {
-    display: flex;
-    flex-direction: column;
-  }
+.eElement5 .eimg {
+  background-image: url(img/FlatIcons.png);
+}
 
-  #job{
-    margin: 0 10px;
-  }
+.ContainerSpk {
+  max-height: 280px;
+  width: 100%;
+  overflow-y: hidden;
+}
+
+.spk {
+  display: flex;
+  flex-direction: row;
+}
+
+.show {
+  display: flex;
+  flex-direction: row;
+}
+
+.photo_container {
+  height: 120px;
+  width: 130px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.chess {
+  height: 60%;
+  width: 60%;
+  position: absolute;
+}
+
+.spkimg {
+  height: 80%;
+  width: 100%;
+  position: absolute;
+  left: 12px;
+  top: 12px;
+  border-radius: 135px;
+}
+
+.spkrdescription {
+  display: flex;
+  flex-direction: column;
+  height: 95px;
+}
+
+#name {
+  margin: 0 10px;
+}
+
+#job {
+  margin: 0 10px;
+}
+
+#look {
+  margin: 0 10px;
+}
+
+.see_more,
+.see_less {
+  height: 80px;
+  width: 100%;
+  padding: 0;
+  border: none;
+  background-color: #727272;
+  font-family: 'Lato', sans-serif;
+  font-size: 26px;
+  font-weight: bold;
+  line-height: 43px;
+  text-align: center;
+  color: #272A31;
+  border-radius: 20px;
+  position: absolute;
+  top: 45px;
+}
+
+.bContainer {
+  position: relative;
+  height: max-content;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.Darrow {
+  height: 22px;
+  width: 25px;
+  border-radius: 0px;
+  margin-left: 4px;
+}
+
+.HideB {
+  display: none;
+}
+
+.showB {
+  display: none;
+}
+
+.Logo {
+  max-height: 0;
+  width: 100%;
+  overflow: hidden;
+}
+
+.logo_txt {
+  height: max-content;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo_tittle {
+  height: max-content;
+  width: 100%;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 25px;
+  color: #272a31;
+  font-weight: bold;
+}
+
+.logo_description {
+  height: max-content;
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+  color: #727272;
+  font-weight: normal;
+}
+
+.e3_img {
+  height: 100px;
+  width: 160px;
+  border: 2px solid #727272db;
+  margin-bottom: 40px;
+}
+
+.past {
+  border-top: 2px solid #7272727c;
+  border-radius: 10px;
+  max-height: 0;
+  overflow: hidden;
+  width: 100%;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.past_tittle {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 25px;
+  color: #272a31;
+  font-weight: bold;
+}
+
+.past_description {
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+  color: #727272;
+  font-weight: normal;
+}
+.past_description_txt_2018,
+.past_description_txt_2019 {
+  width: 100%;
+  height: 300px;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.past_description_txt_2018 {
+  background-image: url(img/e32018.jpg);
+}
+
+.past_description_txt_2019 {
+  background-image: url(img/2019e3.jpg);
+}
+
+#past_description_img{
+  width: 214px;
+}
+
+.blur {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  background-color: #272626cf;
+}
+
+.past_text {
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+}
+
+.past_img {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.past_summits {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 20px;
+}
+
+.past_description_txt {
+  height: 100%;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.sponsors {
+  max-height: max-content;
+  width: 100%;
+  overflow: hidden;
+  background-color: #272a31;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sponsors_tittle {
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  height: max-content;
+  width: 100%;
+}
+
+.sponsors_list {
+  height: max-content;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  margin: 0 10px;
+}
+
+.sponsors_cont {
+  width: 100%;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#sponsors_ac {
+  height: 40px;
+  width: 100%;
+}
+
+#sponsors_pl {
+  height: 65px;
+  width: 100%;
+}
+
+#sponsors_ni {
+  height: 60px;
+  width: 100%;
+}
+
+#sponsors_2k {
+  height: 60px;
+  width: 60px;
+}
+
+#sponsors_xb {
+  height: 60px;
+  width: 80px;
+}
+
+.rights{
+  display: flex;
+  height: 124px;
+  align-items: center;
+  justify-content: center;
+}
+
+.e3_img2 {
+  height: 50px;
+  width: 80px;
+  margin: 0;
+  margin-right: 10px;
+}
+
+.rights_txt{
+  width: 260px;
+  height: max-content;
+}
+
+footer{
+  max-height: 0;
+  width: 100%;
+  overflow: hidden; 
+}
+
+.open {
+  max-height: 1290px;
 }
