@@ -169,6 +169,14 @@ body {
   transform: matrix(1, 0, 0, 1, 0, 0);
 }
 
+.line_2 {
+  width: 50px;
+  height: 0px;
+  border: 2px solid #727272;
+  border-radius: 20px;
+  margin-left: 10px;
+}
+
 .schedule {
   list-style: none;
   height: max-content;
@@ -323,10 +331,12 @@ body {
 }
 
 .ContainerSpk {
-  max-height: 280px;
+  max-height: 320px;
   width: 100%;
   overflow-y: hidden;
+  margin: 0;
 }
+
 
 .spk {
   display: flex;
@@ -339,43 +349,84 @@ body {
 }
 
 .photo_container {
-  height: 120px;
-  width: 130px;
+  height: 140px;
+  width: 190px;
   position: relative;
   margin-bottom: 20px;
 }
 
 .chess {
-  height: 60%;
-  width: 60%;
+  height: 50%;
+  width: 50%;
   position: absolute;
 }
 
 .spkimg {
-  height: 80%;
-  width: 100%;
+  height: 100%;
+  width: 85%;
   position: absolute;
   left: 12px;
   top: 12px;
   border-radius: 135px;
+  margin-right: 10px;
 }
 
 .spkrdescription {
   display: flex;
   flex-direction: column;
   height: 95px;
+  margin: 0 10px;
+  width: max-content;
 }
 
+.speakers_tittle_container {
+  height: 38px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0;
+
+}
+
+.speakers_tittle {
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  height: max-content;
+  color: #272a31;
+  margin: 0;
+}
+
+
 #name {
-  margin: 0 10px;
+  margin: 0;
+  width: 90%;
+  font-family: 'Lato', sans-serif;
+  color: #272a31;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 4px;
 }
 
 #job {
-  margin: 0 10px;
+  margin: 0;
+  width: 90%;
+  font-family: 'Lato', sans-serif;
+  font-style: oblique;
+  color: #cf493a;
+  font-size: 16px;
+  font-weight: normal;
 }
 
 #look {
-  margin: 0 10px;
+  margin: 0;
+  width: 90%;
+  font-family: 'Lato', sans-serif;
+  color: #272a31;
+  font-size: 15px;
+  font-weight: normal;
 }
 
 .see_more,
@@ -485,6 +536,7 @@ body {
   color: #727272;
   font-weight: normal;
 }
+
 .past_description_txt_2018,
 .past_description_txt_2019 {
   width: 100%;
@@ -504,7 +556,7 @@ body {
   background-image: url(img/2019e3.jpg);
 }
 
-#past_description_img{
+#past_description_img {
   width: 214px;
 }
 
@@ -607,7 +659,7 @@ body {
   width: 80px;
 }
 
-.rights{
+.rights {
   display: flex;
   height: 124px;
   align-items: center;
@@ -621,17 +673,266 @@ body {
   margin-right: 10px;
 }
 
-.rights_txt{
+.rights_txt {
   width: 260px;
   height: max-content;
 }
 
-footer{
+footer {
   max-height: 0;
   width: 100%;
-  overflow: hidden; 
+  overflow: hidden;
 }
 
 .open {
   max-height: 1290px;
+}
+
+@media (max-width: 768px) {
+  .header_1 {
+    display: none;
+  }
+
+  .header_2 {
+    display: none;
+  }
+
+  .full_schedule {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .hamimg {
+    display: none;
+  }
+
+  .Main_menu {
+    width: 100%;
+  }
+
+  .header_1 {
+    background-color: #272a31;
+    width: 100%;
+  }
+
+  .header_img {
+    width: 25px;
+    height: 25px;
+    margin-right: 16px;
+  }
+
+  .header_1_list {
+    list-style: none;
+    display: flex;
+    height: 50px;
+    justify-content: end;
+    margin: 0;
+    margin-right: 10%;
+    align-items: center;
+    padding: 0;
+  }
+
+  .header_1_list_2 {
+    list-style: none;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  #header_1_elements_txt {
+    margin-right: 35px;
+  }
+
+  .header_1_elements {
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+  }
+
+  .header_1_elements_2 {
+    color: #727272;
+    margin-right: 4%;
+    font-size: large;
+    font-family: 'Lato', sans-serif;
+  }
+
+  #E3_Schedule {
+    margin-right: 12%;
+  }
+
+  #header_1_elements_e3 {
+    margin-left: 20%;
+  }
+
+  .header_2 {
+    display: flex;
+    width: 100%;
+    background-color: #fff;
+    align-items: center;
+  }
+
+  .e3_main {
+    height: max-content;
+    margin-top: 0;
+    background-image: url(img/BgDsk.png);
+  }
+
+  .hero {
+    margin-left: 120px;
+    margin-bottom: 50px;
+    height: 100%;
+  }
+
+  .hello::before {
+    font-size: 50px;
+  }
+
+  .description1::before {
+    font-size: 60px;
+    width: 25%;
+    color: #ff2911dd;
+    font-weight: bolder;
+  }
+
+  .description1 {
+    max-width: 50%;
+  }
+
+  .description2 {
+    max-width: 50%;
+    color: #727272;
+  }
+
+  .description2::before {
+    font-size: 28px;
+  }
+
+  .date::before {
+    color: #272a31;
+    font-weight: bolder;
+  }
+
+  .location {
+    font-size: 20px;
+  }
+
+  .MainProgram {
+    height: max-content;
+    padding: 0;
+  }
+
+  .Tittle_Container {
+    margin-top: 50px;
+  }
+
+  .schedule {
+    flex-direction: row;
+    justify-content: center;
+    height: 250px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .Event {
+    margin: 0 10px;
+    width: 100%;
+    height: 100%;
+  }
+
+  #eElementc {
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .edescription {
+    width: 70%;
+    text-align: center;
+  }
+
+  .edescription::before {
+    width: 180px;
+  }
+
+  .e3button {
+    display: none;
+  }
+
+  .eElements {
+    height: 100%;
+  }
+
+  .schedule_container {
+    margin: 0 10px 0 20px;
+  }
+
+  .full_schedule {
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    font-size: 20px;
+    margin: 30px 0;
+  }
+
+  .see_more {
+    display: none;
+  }
+
+  .speakers_container {
+    height: max-content;
+  }
+
+  .spk {
+    margin-bottom: 15px;
+    margin-left: 15px;
+  }
+
+  .photo_container {
+    width: 100px;
+    height: 100px;
+  }
+
+  .spkimg {
+    height: 80%;
+    width: 100%;
+  }
+
+  .spkrdescription {
+    width: 100%;
+  }
+
+  .ContainerSpk {
+    max-height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 0;
+  }
+
+  .speakers_tittle_container {
+    width: 100%;
+    height: 150px;
+  }
+
+  .speakers_tittle {
+    font-size: 26px;
+  }
+
+  .footer_hidde {
+    max-height: 1290px;
+  }
+
+  .sponsors {
+    height: 200px;
+  }
+
+  .sponsors_list_container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
 }

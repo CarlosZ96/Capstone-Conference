@@ -63,7 +63,7 @@ const speakersdata = [
 ];
 
 
-for (let i = 0; i < 5; i += 1) {
+for (let i = 0; i < 6; i += 1) {
   const spk = document.createElement('div');
   spk.className = 'spk';
   spks.appendChild(spk);
@@ -75,6 +75,7 @@ for (let i = 0; i < 5; i += 1) {
   <div class="spkrdescription">
     <p id="name">${speakersdata[i].name}</p>
     <p id="job">${speakersdata[i].job}</p>
+    <hr class=line_2>
     <p id="look">${speakersdata[i].look}</p>
   </div>
   `;
