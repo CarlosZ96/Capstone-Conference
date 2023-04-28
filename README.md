@@ -112,7 +112,7 @@ If you like this project, you can give a ⭐️ for this repository.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank:
+I would like to thank:<br>
 https://www.microverse.org/ <br>
 https://www.flaticon.com/ <br>
 Freepik1.<br>
