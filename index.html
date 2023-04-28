@@ -14,7 +14,7 @@
 
 <body>
   <nav class="Main_menu" id="main_pos">
-    <button class="ham"><img src="img/HamburgerIcon.png" alt="hamburgericon" class="hamimg"></button>
+    <a href="#main_pos"><button class="ham"><img src="img/HamburgerIcon.png" alt="hamburgericon" class="hamimg"></button></a>
     <div class="header_1">
       <ul class="header_1_list">
         <li class="header_1_elements"><img src="img/gorjeo 1.png" alt="twitter" class="header_img"></li>
@@ -24,6 +24,24 @@
         <li class="header_1_elements" id="header_1_elements_txt">Logout</li>
       </ul>
     </div>
+    <ul class="mbl-menu">
+      <li id="close"><button id="btn-close" alt="close menu"><img src="img/x.png" class="img-close"></button></li>
+      <li class="l-dskmenu">
+        <a href="#main_pos" class="m-menu-tag1">
+          <p class="m-menu">Home</p>
+        </a>
+      </li>
+      <li class="l-dskmenu">
+        <a href="#spk_location" class="m-menu-tag2">
+          <p class="m-menu">About</p>
+        </a>
+      </li>
+      <li class="l-dskmenu">
+        <a href="#footer_location" class="m-menu-tag3">
+          <p class="m-menu">Sponsors</p>
+        </a>
+      </li>
+    </ul>
     <div class="header_2">
       <a href="#main_pos" class="home_link"><img src="img/1280px-E3_Logo.svg.png" alt="e3_icon" class="e3_img2" id="header_1_elements_e3"></a>
       <ul class="header_1_list_2">
@@ -60,7 +78,7 @@
       <a href="#" class="full_schedule">See the full E3 schedule</a>
     </div>
   </section>
-  <section class="speakers_container">
+  <section class="speakers_container" id="spk_location">
     <div class="speakers_tittle_container">
       <p class="speakers_tittle">Feature Speakers</p>
       <hr class="line">
@@ -105,7 +123,7 @@
       </div>
     </div>
   </div>
-  <footer class="footer_hidde">
+  <footer class="footer_hidde" id="footer_location">
     <div class="sponsors">
       <p class="sponsors_tittle">sponsors</p>
       <hr class="line">

@@ -146,3 +146,40 @@ homel.addEventListener('click', () => {
   logo.classList.toggle('open');
   past.classList.toggle('open');
 });
+
+const m_menu = document.querySelector('.mbl-menu');
+const hamb = document.querySelector('.hamimg');
+const imgclose = document.querySelector('.img-close');
+const homeb = document.querySelector('.m-menu-tag1');
+const aboutm = document.querySelector('.m-menu-tag2');
+const sponsorb = document.querySelector('.m-menu-tag3');
+
+function menubuttonc() {
+  m_menu.classList.toggle('mbl-menu_visible');
+  spks.classList.remove('open');
+  logo.classList.remove('open');
+  past.classList.remove('open');
+  footer.classList.remove('open');
+  Sbutton.classList.toggle('HideB');
+  Sbutton2.classList.toggle('HideB');
+}
+function menubutton() {
+  m_menu.classList.toggle('mbl-menu_visible');
+  spks.classList.toggle('open');
+  logo.classList.toggle('open');
+  past.classList.toggle('open');
+  footer.classList.toggle('open');
+  Sbutton.classList.toggle('HideB');
+  Sbutton2.classList.toggle('HideB');
+}
+
+hamb.addEventListener('click', () => {
+  m_menu.classList.toggle('mbl-menu_visible');
+});
+imgclose.addEventListener('click', () => {
+  m_menu.classList.toggle('mbl-menu_visible');
+});
+
+homeb.addEventListener('click', menubuttonc);
+sponsorb.addEventListener('click', menubutton);
+aboutm.addEventListener('click', menubutton);
