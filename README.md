@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
- 
+   <img src="img/1280px-E3_Logo.svg.png" alt="logo" width="140"  height="auto" />
   <br/>
   <h3><b>E3 2023 Fake page</b></h3>
 
@@ -118,8 +118,6 @@ https://www.flaticon.com/ <br>
 Freepik1.<br>
 mangsaabguru.<br>
 VectorsMarket.<br>
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
