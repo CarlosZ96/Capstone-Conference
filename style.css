@@ -6,8 +6,6 @@ body {
   overflow-y: scroll;
 }
 
-
-
 .ham,
 .hamimg {
   position: fixed;
@@ -25,7 +23,6 @@ body {
   top: 2px;
   display: flex;
   flex-direction: row;
-  align-items: top;
   background-image: url(img/bg_e3.png);
   background-size: cover;
   background-position: center;
@@ -35,7 +32,7 @@ body {
 .hero {
   height: 472px;
   width: 100%;
-  border-radius: 0px;
+  border-radius: 0;
   margin: 100px 20px 0 20px;
 }
 
@@ -163,7 +160,7 @@ body {
 
 .line {
   width: 90px;
-  height: 0px;
+  height: 0;
   border: 2px solid #ec5242;
   border-radius: 20px;
   transform: matrix(1, 0, 0, 1, 0, 0);
@@ -171,7 +168,7 @@ body {
 
 .line_2 {
   width: 50px;
-  height: 0px;
+  height: 0;
   border: 2px solid #727272;
   border-radius: 20px;
   margin-left: 10px;
@@ -294,7 +291,6 @@ body {
   font-size: 20px;
   font-weight: normal;
   line-height: 48px;
-  text-align: left;
   color: #fff;
   padding: 0;
   text-align: center;
@@ -319,7 +315,6 @@ body {
 
 .eElement3 .eimg {
   background-image: url(img/VectorsMarket.png);
-
 }
 
 .eElement4 .eimg {
@@ -336,7 +331,6 @@ body {
   overflow-y: hidden;
   margin: 0;
 }
-
 
 .spk {
   display: flex;
@@ -398,7 +392,6 @@ body {
   margin: 0;
 }
 
-
 #name {
   margin: 0;
   width: 90%;
@@ -440,7 +433,7 @@ body {
   font-weight: bold;
   line-height: 43px;
   text-align: center;
-  color: #272A31;
+  color: #272a31;
   border-radius: 20px;
   position: absolute;
   top: 45px;
@@ -456,7 +449,7 @@ body {
 .Darrow {
   height: 22px;
   width: 25px;
-  border-radius: 0px;
+  border-radius: 0;
   margin-left: 4px;
 }
 

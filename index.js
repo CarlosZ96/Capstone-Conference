@@ -71,7 +71,6 @@ const speakersdata = [
   },
 ];
 
-
 for (let i = 0; i < 6; i += 1) {
   const spk = document.createElement('div');
   spk.className = 'spk';
@@ -94,8 +93,8 @@ const Sbutton = document.createElement('button');
 const Sbutton2 = document.createElement('button');
 bcontainer.appendChild(Sbutton);
 bcontainer.appendChild(Sbutton2);
-Sbutton.className = "see_more";
-Sbutton2.className = "see_less";
+Sbutton.className = 'see_more';
+Sbutton2.className = 'see_less';
 Sbutton2.classList.toggle('HideB');
 Sbutton.innerHTML = `See More<img src="img/sonnycandra 1.png" alt="down arrow" class="Darrow">`;
 Sbutton2.innerHTML = `See Less<img src="img/sonnycandra 2.png" alt="down arrow" class="Darrow">`;
@@ -147,7 +146,7 @@ homel.addEventListener('click', () => {
   past.classList.toggle('open');
 });
 
-const m_menu = document.querySelector('.mbl-menu');
+const mmenu = document.querySelector('.mbl-menu');
 const hamb = document.querySelector('.hamimg');
 const imgclose = document.querySelector('.img-close');
 const homeb = document.querySelector('.m-menu-tag1');
@@ -155,7 +154,7 @@ const aboutm = document.querySelector('.m-menu-tag2');
 const sponsorb = document.querySelector('.m-menu-tag3');
 
 function menubuttonc() {
-  m_menu.classList.toggle('mbl-menu_visible');
+  mmenu.classList.toggle('mbl-menu_visible');
   spks.classList.remove('open');
   logo.classList.remove('open');
   past.classList.remove('open');
@@ -164,7 +163,7 @@ function menubuttonc() {
   Sbutton2.classList.toggle('HideB');
 }
 function menubutton() {
-  m_menu.classList.toggle('mbl-menu_visible');
+  mmenu.classList.toggle('mbl-menu_visible');
   spks.classList.toggle('open');
   logo.classList.toggle('open');
   past.classList.toggle('open');
@@ -174,10 +173,10 @@ function menubutton() {
 }
 
 hamb.addEventListener('click', () => {
-  m_menu.classList.toggle('mbl-menu_visible');
+  mmenu.classList.toggle('mbl-menu_visible');
 });
 imgclose.addEventListener('click', () => {
-  m_menu.classList.toggle('mbl-menu_visible');
+  mmenu.classList.toggle('mbl-menu_visible');
 });
 
 homeb.addEventListener('click', menubuttonc);
