@@ -27,9 +27,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖Portfolio📖 <a name="about-project"></a>
+# 📖E3 2023📖 <a name="about-project"></a>
 
-**My Portfolio** This is a page made only for academic reasons based on the canceled E3 video game conference, two pages were created, the main section and the about section in its different versions for mobile desktop.
+**E3 2023** This is a page made only for academic reasons based on the canceled E3 video game conference, two pages were created, the main section and the about section in its different versions for mobile desktop.
 
 ## 🛠 Built With <a name="built-with"></a>
 
