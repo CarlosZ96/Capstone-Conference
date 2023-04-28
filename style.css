@@ -1024,4 +1024,10 @@ footer {
     justify-content: center;
     margin: 20px 0;
   }
+
+  .past_summits {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
 }
