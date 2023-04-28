@@ -113,11 +113,11 @@ If you like this project, you can give a ⭐️ for this repository.
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank:
-https://www.microverse.org/
-https://www.flaticon.com/
-Freepik1.
-mangsaabguru.
-VectorsMarket.
+https://www.microverse.org/ <br>
+https://www.flaticon.com/ <br>
+Freepik1.<br>
+mangsaabguru.<br>
+VectorsMarket.<br>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
