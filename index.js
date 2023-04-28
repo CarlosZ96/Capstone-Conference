@@ -4,6 +4,15 @@ const bcontainer = document.querySelector('.bContainer');
 const logo = document.querySelector('.Logo');
 const past = document.querySelector('.past');
 const footer = document.querySelector('.footer_hidde');
+const spksc = document.querySelector('.speakers_container');
+const about = document.querySelector('.about_link');
+const description1 = document.querySelector('.description1');
+const description = document.querySelector('.description2');
+const hello = document.querySelector('.hello');
+const date = document.querySelector('.date');
+const locationc = document.querySelector('.location');
+const homel = document.querySelector('.home_link');
+const mprogram = document.querySelector('.MainProgram');
 
 for (let i = 0; i < 5; i += 1) {
   const elementli = document.createElement('li');
@@ -109,3 +118,31 @@ Sbutton2.addEventListener('click', () => {
   Sbutton.classList.toggle('HideB');
 });
 
+about.addEventListener('click', () => {
+  spksc.classList.toggle('HideB');
+  mprogram.classList.toggle('HideB');
+  description.classList.toggle('descriptionchange');
+  description.classList.toggle('expand');
+  description1.classList.toggle('expand');
+  hello.classList.toggle('expand');
+  date.classList.toggle('expand');
+  date.classList.toggle('datechange');
+  locationc.classList.toggle('expand');
+  locationc.classList.toggle('locationchange');
+  logo.classList.toggle('open');
+  past.classList.toggle('open');
+});
+
+homel.addEventListener('click', () => {
+  spksc.classList.remove('HideB');
+  description.classList.remove('descriptionchange');
+  description.classList.remove('expand');
+  description1.classList.remove('expand');
+  hello.classList.remove('expand');
+  date.classList.remove('expand');
+  date.classList.remove('datechange');
+  locationc.classList.remove('expand');
+  locationc.classList.remove('locationchange');
+  logo.classList.toggle('open');
+  past.classList.toggle('open');
+});

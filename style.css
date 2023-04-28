@@ -386,8 +386,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 30px 0;
-
+  margin: 25px 0;
 }
 
 .speakers_tittle {
@@ -676,12 +675,14 @@ body {
 .rights_txt {
   width: 260px;
   height: max-content;
+  font-family: 'Lato', sans-serif;
 }
 
 footer {
   max-height: 0;
   width: 100%;
   overflow: hidden;
+  color: #272a31;
 }
 
 .open {
@@ -753,7 +754,8 @@ footer {
     font-weight: bold;
   }
 
-  .header_1_elements_2 {
+  .header_1_elements_2,
+  .about_link {
     color: #727272;
     margin-right: 4%;
     font-size: large;
@@ -809,6 +811,25 @@ footer {
 
   .description2::before {
     font-size: 28px;
+  }
+
+  .descriptionchange::before {
+    content: "The Electronic Entertainment Expo (also sometimes called Electronic Entertainment Expo 3, Expo 3 or Expo), better known by its abbreviation E3, is the most important video game convention in the industry, in which various video game companies talk about their upcoming releases, and sometimes of your software and hardware. The exhibition only allowed entry to company workers and journalists, although as of 2017, anyone could enter if they bought a ticket.";
+  }
+
+  .datechange::before {
+    content: "Contact us by email if you have any concerns or suggestions.";
+    font-size: 16px;
+  }
+
+  .expand {
+    max-width: 80%;
+    text-align: center;
+  }
+
+  .locationchange::before {
+    content: "e3@fakemail.com";
+    font-size: 16px;
   }
 
   .date::before {
@@ -883,12 +904,13 @@ footer {
   }
 
   .speakers_container {
-    height: max-content;
+    height: 100%;
   }
 
   .spk {
-    margin-bottom: 15px;
-    margin-left: 15px;
+    width: 90%;
+    margin-bottom: 25px;
+    margin-left: 10px;
   }
 
   .photo_container {
@@ -902,15 +924,16 @@ footer {
   }
 
   .spkrdescription {
-    width: 100%;
+    width: 70%;
   }
 
   .ContainerSpk {
     max-height: 100%;
     width: 100%;
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 40% 40%;
     margin: 0;
+    justify-content: center;
   }
 
   .speakers_tittle_container {
