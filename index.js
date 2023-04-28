@@ -96,9 +96,12 @@ bcontainer.appendChild(Sbutton2);
 Sbutton.className = 'see_more';
 Sbutton2.className = 'see_less';
 Sbutton2.classList.toggle('HideB');
-Sbutton.innerHTML = `See More<img src="img/sonnycandra 1.png" alt="down arrow" class="Darrow">`;
-Sbutton2.innerHTML = `See Less<img src="img/sonnycandra 2.png" alt="down arrow" class="Darrow">`;
-
+Sbutton.innerHTML = `
+See More<img src='img/sonnycandra 1.png' alt="down arrow" class="Darrow">
+`;
+Sbutton2.innerHTML = `
+See Less<img src='img/sonnycandra 2.png' alt="down arrow" class="Darrow">
+`;
 
 Sbutton.addEventListener('click', () => {
   spks.classList.toggle('open');
