@@ -105,19 +105,13 @@ See Less<img src='img/sonnycandra 2.png' alt="down arrow" class="Darrow">
 
 Sbutton.addEventListener('click', () => {
   spks.classList.toggle('open');
-  logo.classList.toggle('open');
-  past.classList.toggle('open');
-  footer.classList.toggle('open');
-  Sbutton2.classList.toggle('HideB');
   Sbutton.classList.toggle('HideB');
+  Sbutton2.classList.toggle('HideB');
 });
 Sbutton2.addEventListener('click', () => {
   spks.classList.toggle('open');
-  logo.classList.toggle('open');
-  past.classList.toggle('open');
-  footer.classList.toggle('open');
-  Sbutton2.classList.toggle('HideB');
   Sbutton.classList.toggle('HideB');
+  Sbutton2.classList.toggle('HideB');
 });
 
 about.addEventListener('click', () => {
@@ -131,8 +125,6 @@ about.addEventListener('click', () => {
   date.classList.toggle('datechange');
   locationc.classList.toggle('expand');
   locationc.classList.toggle('locationchange');
-  logo.classList.toggle('open');
-  past.classList.toggle('open');
 });
 
 homel.addEventListener('click', () => {
@@ -145,8 +137,6 @@ homel.addEventListener('click', () => {
   date.classList.remove('datechange');
   locationc.classList.remove('expand');
   locationc.classList.remove('locationchange');
-  logo.classList.toggle('open');
-  past.classList.toggle('open');
 });
 
 const mmenu = document.querySelector('.mbl-menu');
@@ -159,18 +149,12 @@ const sponsorb = document.querySelector('.m-menu-tag3');
 function menubuttonc() {
   mmenu.classList.toggle('mbl-menu_visible');
   spks.classList.remove('open');
-  logo.classList.remove('open');
-  past.classList.remove('open');
-  footer.classList.remove('open');
   Sbutton.classList.toggle('HideB');
   Sbutton2.classList.toggle('HideB');
 }
 function menubutton() {
   mmenu.classList.toggle('mbl-menu_visible');
   spks.classList.toggle('open');
-  logo.classList.toggle('open');
-  past.classList.toggle('open');
-  footer.classList.toggle('open');
   Sbutton.classList.toggle('HideB');
   Sbutton2.classList.toggle('HideB');
 }
@@ -182,6 +166,6 @@ imgclose.addEventListener('click', () => {
   mmenu.classList.toggle('mbl-menu_visible');
 });
 
-homeb.addEventListener('click', menubuttonc);
+
 sponsorb.addEventListener('click', menubutton);
 aboutm.addEventListener('click', menubutton);
