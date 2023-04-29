@@ -43,6 +43,13 @@
 ### Key Features <a name="key-features"></a>
 - **A responsive webpage to present my knowledge, experience and projects in programming.**
 
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link](https://carlosz96.github.io/Capstone-Conference/)
+
+Watch the live demo at the following link: 
+https://www.loom.com/share/cc28fdf29e03434ba02d0ddec72b7863
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
@@ -118,6 +125,7 @@ https://www.flaticon.com/ <br>
 Freepik1.<br>
 mangsaabguru.<br>
 VectorsMarket.<br>
+Cindy Shin: author of the original design.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
