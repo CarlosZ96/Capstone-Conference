@@ -7,6 +7,7 @@
   background-image: url(img/about.png);
   background-repeat: no-repeat;
   background-size: contain;
+  background-position: center;
 }
 
 .heroa {
@@ -38,7 +39,6 @@
   font-style: normal;
   font-size: 30px;
   font-weight: bold;
-  text-align: left;
   padding: 0;
   margin: 0;
   margin-bottom: 21px;
@@ -136,7 +136,6 @@
     width: 100%;
     color: #ff2911dd;
     font-weight: bolder;
-
   }
 
   .description2a {

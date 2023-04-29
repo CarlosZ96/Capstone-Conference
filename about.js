@@ -4,6 +4,8 @@ const imgclose = document.querySelector('.img-close');
 const homeb = document.querySelector('.m-menu-tag1');
 const aboutm = document.querySelector('.m-menu-tag2');
 const sponsorb = document.querySelector('.m-menu-tag3');
+const Sbutton = document.createElement('button');
+const Sbutton2 = document.createElement('button');
 
 function menubuttonc() {
   mmenu.classList.toggle('mbl-menu_visible');

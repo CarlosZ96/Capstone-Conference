@@ -1,9 +1,6 @@
 const schedule = document.querySelector('.schedule');
 const spks = document.querySelector('.ContainerSpk');
 const bcontainer = document.querySelector('.bContainer');
-const logo = document.querySelector('.Logo');
-const past = document.querySelector('.past');
-const footer = document.querySelector('.footer_hidde');
 const spksc = document.querySelector('.speakers_container');
 const about = document.querySelector('.about_link');
 const description1 = document.querySelector('.description1');
@@ -146,12 +143,6 @@ const homeb = document.querySelector('.m-menu-tag1');
 const aboutm = document.querySelector('.m-menu-tag2');
 const sponsorb = document.querySelector('.m-menu-tag3');
 
-function menubuttonc() {
-  mmenu.classList.toggle('mbl-menu_visible');
-  spks.classList.remove('open');
-  Sbutton.classList.toggle('HideB');
-  Sbutton2.classList.toggle('HideB');
-}
 function menubutton() {
   mmenu.classList.toggle('mbl-menu_visible');
   spks.classList.toggle('open');
@@ -166,6 +157,6 @@ imgclose.addEventListener('click', () => {
   mmenu.classList.toggle('mbl-menu_visible');
 });
 
-
+homeb.addEventListener('click', menubutton);
 sponsorb.addEventListener('click', menubutton);
 aboutm.addEventListener('click', menubutton);
