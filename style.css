@@ -1,0 +1,1020 @@
+body {
+  font-family: 'Lato', sans-serif;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-y: scroll;
+}
+
+.ham,
+.hamimg {
+  position: fixed;
+  left: 20px;
+  top: 20px;
+  height: 25px;
+  width: 25px;
+  border: none;
+  background: none;
+}
+
+.e3_main {
+  height: 694px;
+  width: 100%;
+  top: 2px;
+  display: flex;
+  flex-direction: row;
+  background-image: url(img/bg_e3.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero {
+  height: 472px;
+  width: 100%;
+  border-radius: 0;
+  margin: 100px 20px 0 20px;
+}
+
+.hello {
+  height: 48px;
+  width: 100%;
+  font-family: 'Lato', sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 48px;
+  color: #ec5242;
+  text-align: left;
+  padding: 0;
+  margin: 0;
+}
+
+.hello::before {
+  content: "“Hello Gamer World”";
+}
+
+.description1 {
+  height: max-content;
+  width: 100%;
+  color: #ec5242;
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: left;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 21px;
+}
+
+.description1::before {
+  content: "E3 the best non-cancelled video game conference.";
+}
+
+.description2 {
+  height: max-content;
+  width: 100%;
+  left: 104px;
+  top: 437px;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  text-align: left;
+  background-color: #fff;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.description2::before {
+  content: "Is a convention in which various video game companies talk about their upcoming releases and sometimes about their software and hardware";
+}
+
+.date {
+  height: 72px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+  font-size: 34px;
+  font-weight: 900;
+  line-height: 77px;
+  text-align: left;
+  color: #727272;
+}
+
+.date::before {
+  content: "2023.02.29-30";
+}
+
+.location {
+  height: max-content;
+  width: 100%;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  font-weight: 900;
+  text-align: left;
+  color: #727272;
+  margin: 0;
+  padding: 0;
+}
+
+.location::before {
+  content: "@Los Angeles Convention Center.";
+}
+
+.MainProgram {
+  height: max-content;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #272a31;
+  background-image: url(img/pngkey\ 1.png);
+  background-size: contain;
+  margin: 0;
+}
+
+.Tittle_Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
+  height: 91px;
+}
+
+.M_tittle {
+  font-family: 'Lato', sans-serif;
+  font-size: 26px;
+  font-weight: normal;
+  line-height: 43px;
+  color: #fff;
+  text-align: left;
+  height: max-content;
+  width: max-content;
+  margin: 0;
+  padding: 0;
+}
+
+.line {
+  width: 90px;
+  height: 0;
+  border: 2px solid #ec5242;
+  border-radius: 20px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.line_2 {
+  width: 50px;
+  height: 0;
+  border: 2px solid #727272;
+  border-radius: 20px;
+  margin-left: 10px;
+}
+
+.schedule {
+  list-style: none;
+  height: max-content;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+.Event {
+  display: flex;
+  flex-direction: row;
+  height: 100px;
+  background: rgba(121, 121, 121, 0.7);
+  margin: 0 10px 10px 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+#eElementc {
+  display: flex;
+  flex-direction: row;
+}
+
+.eElements {
+  list-style: none;
+  padding: 0;
+}
+
+.eElement {
+  display: flex;
+  flex-direction: row;
+}
+
+.etittle {
+  height: 38px;
+  width: max-content;
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 38px;
+  text-align: left;
+  color: #cf493a;
+}
+
+.eElement1 .etittle::before {
+  content: "Speakers";
+  margin-left: 2px;
+}
+
+.eElement2 .etittle::before {
+  content: "Speakers";
+}
+
+.eElement3 .etittle::before {
+  content: "Speakers";
+}
+
+.eElement4 .etittle::before {
+  content: "Speakers";
+}
+
+.eElement5 .etittle::before {
+  content: "Speakers";
+}
+
+.edescription {
+  height: 58px;
+  width: 200px;
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 29px;
+  text-align: left;
+  color: #fff;
+  margin: 0;
+}
+
+.eElement1 .edescription::before {
+  content: "Listen to the speakers of the best companies in the market.";
+}
+
+.eElement2 .edescription::before {
+  content: "Discover the next games and consoles exclusively for e3!";
+}
+
+.eElement3 .edescription::before {
+  content: "Do you like the new releases? Discuss your opinion with other gamers.";
+}
+
+.eElement4 .edescription::before {
+  content: "Enjoy some new and classic video games.";
+}
+
+.eElement5 .edescription::before {
+  content: "Listen to the speakers of the best companies in the market.";
+}
+
+.buttonContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.e3button {
+  height: 60px;
+  width: 300px;
+  border-radius: 20px;
+  background-color: #ec5242;
+  border-color: #cf493a;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 48px;
+  color: #fff;
+  padding: 0;
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 43px;
+}
+
+.eimg {
+  height: 65px;
+  width: 65px;
+  margin-left: 13px;
+  background-size: cover;
+}
+
+.eElement1 .eimg {
+  background-image: url(img/Freepik1.png);
+}
+
+.eElement2 .eimg {
+  background-image: url(img/EucalypPad.png);
+}
+
+.eElement3 .eimg {
+  background-image: url(img/VectorsMarket.png);
+}
+
+.eElement4 .eimg {
+  background-image: url(img/mangsaabguru.png);
+}
+
+.eElement5 .eimg {
+  background-image: url(img/FlatIcons.png);
+}
+
+.ContainerSpk {
+  max-height: 320px;
+  width: 100%;
+  overflow-y: hidden;
+  margin: 0;
+}
+
+.spk {
+  display: flex;
+  flex-direction: row;
+}
+
+.show {
+  display: flex;
+  flex-direction: row;
+}
+
+.photo_container {
+  height: 140px;
+  width: 190px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.chess {
+  height: 50%;
+  width: 50%;
+  position: absolute;
+}
+
+.spkimg {
+  height: 100%;
+  width: 85%;
+  position: absolute;
+  left: 12px;
+  top: 12px;
+  border-radius: 135px;
+  margin-right: 10px;
+}
+
+.spkrdescription {
+  display: flex;
+  flex-direction: column;
+  height: 95px;
+  margin: 0 10px;
+  width: max-content;
+}
+
+.speakers_tittle_container {
+  height: 38px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 25px 0;
+}
+
+.speakers_tittle {
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  height: max-content;
+  color: #272a31;
+  margin: 0;
+}
+
+#name {
+  margin: 0;
+  width: 90%;
+  font-family: 'Lato', sans-serif;
+  color: #272a31;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+#job {
+  margin: 0;
+  width: 90%;
+  font-family: 'Lato', sans-serif;
+  font-style: oblique;
+  color: #cf493a;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+#look {
+  margin: 0;
+  width: 90%;
+  font-family: 'Lato', sans-serif;
+  color: #272a31;
+  font-size: 15px;
+  font-weight: normal;
+}
+
+.see_more,
+.see_less {
+  height: 80px;
+  width: 100%;
+  padding: 0;
+  border: none;
+  background-color: #727272;
+  font-family: 'Lato', sans-serif;
+  font-size: 26px;
+  font-weight: bold;
+  line-height: 43px;
+  text-align: center;
+  color: #272a31;
+  border-radius: 20px;
+  position: absolute;
+  top: 45px;
+}
+
+.bContainer {
+  position: relative;
+  height: max-content;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.Darrow {
+  height: 22px;
+  width: 25px;
+  border-radius: 0;
+  margin-left: 4px;
+}
+
+.HideB {
+  display: none;
+}
+
+.showB {
+  display: none;
+}
+
+.logo_txt {
+  height: max-content;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo_tittle {
+  height: max-content;
+  width: 100%;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 25px;
+  color: #272a31;
+  font-weight: bold;
+}
+
+.logo_description {
+  height: max-content;
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+  color: #727272;
+  font-weight: normal;
+}
+
+.e3_img {
+  height: 100px;
+  width: 160px;
+  border: 2px solid #727272db;
+  margin-bottom: 40px;
+}
+
+.past {
+  border-top: 2px solid #7272727c;
+  border-radius: 10px;
+  max-height: 0;
+  overflow: hidden;
+  width: 100%;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.past_tittle {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 25px;
+  color: #272a31;
+  font-weight: bold;
+  margin-top: 40px;
+}
+
+.past_description {
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+  color: #727272;
+  font-weight: normal;
+}
+
+.past_description_txt_2018,
+.past_description_txt_2019 {
+  width: 100%;
+  height: 300px;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.past_description_txt_2018 {
+  background-image: url(img/e32018.jpg);
+}
+
+.past_description_txt_2019 {
+  background-image: url(img/2019e3.jpg);
+}
+
+#past_description_img {
+  width: 214px;
+}
+
+.blur {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  background-color: #272626cf;
+}
+
+.past_text {
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+}
+
+.past_img {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.past_summits {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 20px;
+}
+
+.past_description_txt {
+  height: 100%;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.sponsors {
+  max-height: max-content;
+  width: 100%;
+  overflow: hidden;
+  background-color: #272a31;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sponsors_tittle {
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  height: max-content;
+  width: 100%;
+}
+
+.sponsors_list {
+  height: max-content;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  margin: 0 10px;
+}
+
+.sponsors_cont {
+  width: 100%;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#sponsors_ac {
+  height: 40px;
+  width: 100%;
+}
+
+#sponsors_pl {
+  height: 65px;
+  width: 100%;
+}
+
+#sponsors_ni {
+  height: 60px;
+  width: 100%;
+}
+
+#sponsors_2k {
+  height: 60px;
+  width: 60px;
+}
+
+#sponsors_xb {
+  height: 60px;
+  width: 80px;
+}
+
+.e3_img2 {
+  height: 50px;
+  width: 80px;
+  margin: 0;
+  margin-right: 10px;
+}
+
+.rights {
+  display: flex;
+  height: 124px;
+  align-items: center;
+  justify-content: center;
+}
+
+.rights_txt {
+  width: 260px;
+  height: max-content;
+  font-family: 'Lato', sans-serif;
+}
+
+footer {
+  max-height: 0;
+  width: 100%;
+  overflow: hidden;
+  color: #272a31;
+}
+
+.open {
+  max-height: 1290px;
+}
+
+.mbl-menu {
+  width: 100%;
+  height: 100%;
+  background: #272a31e1;
+  mix-blend-mode: multiply;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  position: fixed;
+  margin: 0;
+  padding: 20px 0;
+  top: 0;
+  transition: left 0.5s;
+  left: 100%;
+}
+
+.mbl-menu p {
+  padding: 0;
+  margin-left: 24px;
+  font-family: 'Lato', sans-serif;
+  color: #cf493a;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 44px;
+  letter-spacing: 0;
+}
+
+#close {
+  display: flex;
+  justify-content: end;
+  width: 100%;
+}
+
+#btn-close {
+  height: 14px;
+  width: 14px;
+  margin-right: 50px;
+  border: none;
+  background: none;
+}
+
+.img-close {
+  height: 12px;
+  width: 12px;
+  left: 6px;
+  top: 6px;
+  border-radius: 0;
+}
+
+.m-menu-tag1,
+.m-menu-tag2,
+.m-menu-tag3 {
+  text-decoration: none;
+}
+
+.mbl-menu_visible {
+  left: 0;
+  -webkit-backdrop-filter: blur(25px);
+  backdrop-filter: blur(10px);
+}
+
+@media (max-width: 768px) {
+  .header_1 {
+    display: none;
+  }
+
+  .header_2 {
+    display: none;
+  }
+
+  .full_schedule {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .mbl-menu {
+    display: none;
+  }
+
+  .hamimg {
+    display: none;
+  }
+
+  .Main_menu {
+    width: 100%;
+  }
+
+  .header_1 {
+    background-color: #272a31;
+    width: 100%;
+  }
+
+  .header_img {
+    width: 25px;
+    height: 25px;
+    margin-right: 16px;
+  }
+
+  .header_1_list {
+    list-style: none;
+    display: flex;
+    height: 50px;
+    justify-content: end;
+    margin: 0;
+    margin-right: 10%;
+    align-items: center;
+    padding: 0;
+  }
+
+  .header_1_list_2 {
+    list-style: none;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  #header_1_elements_txt {
+    margin-right: 35px;
+  }
+
+  .header_1_elements {
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+  }
+
+  .header_1_elements_2,
+  .about_link {
+    color: #727272;
+    margin-right: 4%;
+    font-size: large;
+    font-family: 'Lato', sans-serif;
+  }
+
+  #E3_Schedule {
+    margin-right: 12%;
+  }
+
+  #header_1_elements_e3 {
+    margin-left: 20%;
+  }
+
+  .header_2 {
+    display: flex;
+    width: 100%;
+    background-color: #fff;
+    align-items: center;
+  }
+
+  .e3_main {
+    height: max-content;
+    margin-top: 0;
+    background-image: url(img/BgDsk.png);
+  }
+
+  .hero {
+    margin-left: 120px;
+    margin-bottom: 50px;
+    height: 100%;
+  }
+
+  .hello::before {
+    font-size: 50px;
+  }
+
+  .description1::before {
+    font-size: 60px;
+    width: 25%;
+    color: #ff2911dd;
+    font-weight: bolder;
+  }
+
+  .description1 {
+    max-width: 50%;
+  }
+
+  .description2 {
+    max-width: 50%;
+    color: #727272;
+  }
+
+  .description2::before {
+    font-size: 28px;
+  }
+
+  .descriptionchange::before {
+    content: "The Electronic Entertainment Expo (also sometimes called Electronic Entertainment Expo 3, Expo 3 or Expo), better known by its abbreviation E3, is the most important video game convention in the industry, in which various video game companies talk about their upcoming releases, and sometimes of your software and hardware. The exhibition only allowed entry to company workers and journalists, although as of 2017, anyone could enter if they bought a ticket.";
+  }
+
+  .datechange::before {
+    content: "Contact us by email if you have any concerns or suggestions.";
+    font-size: 16px;
+  }
+
+  .expand {
+    max-width: 80%;
+    text-align: center;
+  }
+
+  .locationchange::before {
+    content: "e3@fakemail.com";
+    font-size: 16px;
+  }
+
+  .date::before {
+    color: #272a31;
+    font-weight: bolder;
+  }
+
+  .location {
+    font-size: 20px;
+  }
+
+  .MainProgram {
+    height: max-content;
+    padding: 0;
+  }
+
+  .Tittle_Container {
+    margin-top: 50px;
+  }
+
+  .schedule {
+    flex-direction: row;
+    justify-content: center;
+    height: 250px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .Event {
+    margin: 0 10px;
+    width: 100%;
+    height: 100%;
+  }
+
+  #eElementc {
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .edescription {
+    width: 70%;
+    text-align: center;
+  }
+
+  .edescription::before {
+    width: 180px;
+  }
+
+  .e3button {
+    display: none;
+  }
+
+  .eElements {
+    height: 100%;
+  }
+
+  .schedule_container {
+    margin: 0 10px 0 20px;
+  }
+
+  .full_schedule {
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    font-size: 20px;
+    margin: 30px 0;
+  }
+
+  .see_more {
+    display: none;
+  }
+
+  .speakers_container {
+    height: 100%;
+  }
+
+  .spk {
+    width: 90%;
+    margin-bottom: 25px;
+    margin-left: 10px;
+  }
+
+  .photo_container {
+    width: 100px;
+    height: 100px;
+  }
+
+  .spkimg {
+    height: 80%;
+    width: 100%;
+  }
+
+  .spkrdescription {
+    width: 70%;
+  }
+
+  .ContainerSpk {
+    max-height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 40% 40%;
+    margin: 0;
+    justify-content: center;
+  }
+
+  .speakers_tittle_container {
+    width: 100%;
+    height: 150px;
+  }
+
+  .speakers_tittle {
+    font-size: 26px;
+  }
+
+  .footer_hidde {
+    max-height: 1290px;
+  }
+
+  .sponsors {
+    height: 200px;
+  }
+
+  .sponsors_list_container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+
+  .past_summits {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+}
